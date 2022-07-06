@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   PermissionsAndroid,
   Alert,
@@ -11,9 +11,9 @@ import {
 
 const Splash = ({}) => {
   return (
-    <StyledView>
+    <View>
       <Text>splash</Text>
-    </StyledView>
+    </View>
   );
 };
 
